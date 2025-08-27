@@ -1,0 +1,23 @@
+/* 
+body{
+    background-color: aquamarine;
+}
+
+p{
+    color: white;
+    background-color: black;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+#home{
+    background-color: red;
+}
+
+.footer{
+    background-color: yellow;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
