@@ -1,0 +1,38 @@
+.parent{
+    display: flex;
+    background-color: lightgrey;
+    border: 2px solid black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.child1{
+    height: 200px;
+    width: 200px;
+    background-color: lightcoral;
+    border: 2px dotted black;
+    order: 3;
+    
+}
+.child2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(13, 184, 169);
+    border: 2px dotted black;
+    
+}
+.child3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(13, 51, 140);
+    border: 2px dotted black;
+    
+}
+.child4{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(33, 245, 14);
+    border: 2px dotted black;
+    
+}
