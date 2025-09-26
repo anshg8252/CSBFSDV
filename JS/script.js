@@ -75,24 +75,23 @@
 // greetings(); 
 // greetings("Rahul"); 
 
-function selectlanguage(lang){
-    let data;
-    if (lang == "java"){
-        function javaCompiler(){
-            data = "Java Compiler Selected";
-        }
-        data = javaCompiler();
-    }
-    else if (lang == "c"){
-        function cCompiler(){
-            data = "C Compiler Selected";
-        }
-        return cCompiler();
-    }
-    else{
-        data = "No such Compiler"
-    }
-    console.log(data);
-}
+// function selectlanguage(lang){
+//     let data;
+//     if (lang == "java"){
+//         function javaCompiler(){
+//             data = "Java Compiler Selected";
+//         }
+//         data = javaCompiler();
+//     }
+//     else if (lang == "c"){
+//         function cCompiler(){
+//             data = "C Compiler Selected";
+//         }
+//         return cCompiler();
+//     }
+//     else{
+//         data = "No such Compiler"
+//     }
+//     console.log(data);
+// }
 
-selectlanguage(java);
