@@ -1,12 +1,16 @@
 import React from 'react'
 import './profile.css'
 
-function Profile() {
+function Profile({data}) {
   return (
     <div className='parent'>
-        <h2>Rahul Kumar</h2>
-        <h2>Computer Science</h2>
-        <img src="https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000" alt="" width={200} />
+        <h2>Profile Page</h2>
+        <img src={data.pic} alt="" width={200}/>
+        <h3>Name:{data.myname}</h3>
+        <h3>Branch:{data.mybranch}</h3>
+        <h3>Section:{data.mysection}</h3>
+        <h3>College:{data.mycollege}</h3>
+        
     </div>
   )
 }
